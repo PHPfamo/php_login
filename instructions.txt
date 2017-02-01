@@ -1,0 +1,23 @@
+Use phpMyadmin and create :
+
+database: collation (utf8mb4_general_ci)
+login_users
+
+table_name:
+users
+
+4 fields 
+id->AI OPTION CHECK
+username (varchar 50)
+email    (varchar 50)
+password (varchar 255)
+
+default host: 127.0.0.1 (localhost)
+
+user:
+root
+
+password:
+leave it blank
+
+
