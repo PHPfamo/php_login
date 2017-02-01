@@ -1,9 +1,9 @@
-Use phpMyadmin and create :
+Use phpMyadmin, or any SQL related dbms and create with bellow instructions :
 
-database: collation (utf8mb4_general_ci)
+1.database: collation (utf8mb4_general_ci)
 login_users
 
-table_name:
+2.table_name:
 users
 
 4 fields 
@@ -12,12 +12,16 @@ username (varchar 50)
 email    (varchar 50)
 password (varchar 255)
 
-default host: 127.0.0.1 (localhost)
+3.default host: 127.0.0.1 (localhost)
 
 user:
 root
 
 password:
 leave it blank
+
+<-------------------------------->
+Those are the default localhost development option, 
+you can change them to anything you like.
 
 
